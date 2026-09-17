@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "163662132478",
+    "firebase_url": "https://market-rental-application-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "market-rental-application",
+    "storage_bucket": "market-rental-application.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163662132478:android:5642460da5faa4cd5de1af",
+        "android_client_info": {
+          "package_name": "com.example.ku_market_rental"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGmf-HaqDbWfnOh8o26z2Y4XlLw0sgEXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163662132478:android:172075157afb193a5de1af",
+        "android_client_info": {
+          "package_name": "com.example.market_slot_rental"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGmf-HaqDbWfnOh8o26z2Y4XlLw0sgEXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

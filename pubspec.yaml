@@ -1,0 +1,52 @@
+name: yuea_market_place
+description: Yuea Market Place - booking app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4          # optional: user profiles / bookings
+  google_sign_in: ^6.2.1           # optional: Google login button
+
+  # UI
+  qr_flutter: ^4.1.0
+  table_calendar: ^3.1.2
+  shared_preferences: ^2.3.2       # persists the light/dark mode choice locally
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Drop your exported PNG/SVG/JPG files straight into assets/images.
+  # File names below match what the screens already look for — if you
+  # keep these names your images appear automatically, no code changes.
+  assets:
+    - assets/images/
+
+  # 1) Put your .ttf files in assets/fonts
+  # 2) Uncomment this block and match the file names to what you added
+  # 3) Set `fontFamily: 'Poppins'` (or your family name) in lib/theme/app_theme.dart
+  #
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700

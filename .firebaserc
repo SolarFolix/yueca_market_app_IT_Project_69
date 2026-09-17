@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "like \"default\"": "market-rental-application",
+    "default": "market-rental-application"
+  },
+  "targets": {},
+  "etags": {}
+}
